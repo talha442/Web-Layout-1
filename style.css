@@ -96,14 +96,15 @@ body {
 }
 
 .lubricants .para h6 {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .lubricants .para {
     display: inline-block;
     margin-left: 15px;
     color: white;
-    font-size: 11px;
+    font-size: 15px;
+    text-transform: none;
 }
 
 .center .img {
