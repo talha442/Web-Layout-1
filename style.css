@@ -58,7 +58,7 @@ body {
 
 .container {
     background: rgb(12, 11, 11);
-    height: 1000px;
+    height: auto;
 }
 
 .container .image {
@@ -144,16 +144,68 @@ body {
 
 .down .heading {
     background: linear-gradient(#FDD144, #ffc72c);
-    height: 35px;
+    height: 40px;
 }
 
 .down .heading h5 {
     margin-left: 10px;
     display: inline-block;
     position: relative;
-    top: -12px;
+    top: -8px;
 }
 
 .down .paragraph {
     background-color: #fff;
+    margin-top: -18px;
+    font-size: 13px;
+    height: 200px;
+}
+
+.down .paragraph p {
+    padding: 15px;
+}
+
+.down .pic img {
+    position: relative;
+    width: 288px;
+}
+
+.btn button {
+    width: 105px;
+    height: 35px;
+    background: #FFCA32;
+    position: relative;
+    font-weight: 700;
+    border: none;
+    top: -52px;
+    left: 150px;
+    padding-left: 12px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+button:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 12px solid #FFCA32;
+    border-top: 12px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+button:before {
+    content: '';
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #FFCA32;
+    border-top: 20px solid transparent;
+    border-bottom: 15px solid transparent;
 }
